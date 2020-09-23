@@ -21,7 +21,7 @@ const LoadoutItem = props => {
     <div className="flex-container">
       {index > 0 && <img className="line" src={`/images/${selected ? '' : 'un'}selectedline.png`} />}
       <span onClick={eventHandler} onContextMenu={eventHandler}>
-        <img className={className} src={`/images/${item}.png`} />
+        <img className={className} src={`/images/${item}${selected ? 'lit' : ''}.png`} />
       </span>
     </div>
   );
