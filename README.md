@@ -2,6 +2,6 @@
 
 Go into my-app
 
-Run npm install
+Run `npm install`
 
-Run npm start
+Run `npm start`
