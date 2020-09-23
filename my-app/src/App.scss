@@ -1,0 +1,57 @@
+$light-blue: #0e88a1;
+
+body {
+   background-color: #282c34;
+}
+
+.App {
+  justify-content: center;
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  background-image: url(/images/talent-calc-bg.png);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1
+}
+
+.flex-list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  border: 3px solid gray;
+}
+
+.lit {
+    border-color: $light-blue;
+}
+
+h2 {
+  background-color: rgb(44, 44, 44);
+  background-color: rgba(44, 44, 44, 0.5);
+}
+
+h5 {
+  margin-right: 30px;
+}
+
+.points-spent {
+  margin-left: 30px;
+  border: 1px solid #2b2b2b;
+  padding: 10px;
+  font-size: 20px;
+
+  &--numbers {
+    text-align: center;
+    color: $light-blue;
+  }
+}
